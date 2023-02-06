@@ -5,4 +5,13 @@ The script uses the telepot.aio library, which provides asynchronous implementat
 Finally, the script starts an event loop to listen for messages and runs the loop forever, so the bot continues to listen for status messages even after a message has been sent.
 
 
+<b> usage </b>
+Replace YOUR_TELEGRAM_BOT_API_KEY with your actual Telegram bot API key, YOUR_CHAT_ID with the chat ID of your account, and TARGET_USER_NAME with the username of the person you want to track.
+
+This script listens for status messages in the chat and sends you a message when the specified user comes online.
+
+Note: To use this script, you will need to have Python installed on your computer, as well as the telepot and asyncio libraries. You can install these libraries using pip.
+
+
+
 
